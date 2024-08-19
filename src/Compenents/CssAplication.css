@@ -1,0 +1,84 @@
+.button {
+    padding: 5px 10px;
+    background-color: #cbdc4d;
+    border: rgb(25, 25, 214);
+  }
+  
+.userPresent {
+    margin-left: 42px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+  }
+
+.Tasks-not-completed {
+    border:3px solid red;  
+    width: 400px;
+    margin-left: 42px;
+    margin-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 4px;  
+  }
+
+
+.Tasks-completed {
+    border:3px solid green;  
+    width: 400px;
+    margin-left: 42px;
+    margin-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 4px;  
+  }
+
+.input {
+  text-align:center;
+  margin-left:'10px';
+  margin-bottom:'10px';
+  padding-right:'2px';
+  padding-left:'2px';
+
+}
+
+.popup {
+  position: absolute;
+  top: 0;
+  right:-200px;
+  padding:10px;
+  background: lightgray;
+  border: 1px solid #ccc;
+  /* boxShadow: 0px 0px 5px rgba(0,0,0,0.3); */
+}
+
+.disPlay{
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.displaySon{
+  position: relative;
+  float: right;
+  border:2px solid blue; 
+  width: 470px;
+  position: absolute;
+}
+
+.displayTodosAndPosts{
+  border:2px solid black; 
+  margin: 20px 10px 10px 20px;
+  width: 430px;
+}
+
+.title{
+  border: 2px solid rgb(104, 1, 104);
+  margin: 10px 15px 15px 10px;
+  width: 400px;
+  /* margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px; */
+
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
